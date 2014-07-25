@@ -267,3 +267,88 @@
 	.add-bottom { margin-bottom: 20px !important; }
 
 
+/* Sections
+================================= */
+
+/* header */
+#header {
+	background: url('../images/header.jpg');
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 680px;
+	width: 100%;
+}
+
+#header .logo {
+	margin-top: 1em;
+}
+
+#header nav {
+	text-align: right;
+	margin-top: 2em;
+}
+
+#header nav ul li {
+	display: inline-block;
+}
+
+#header nav ul li a {
+	color: #ffffff;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 0.75em 2em;
+}
+
+#header nav ul li a.btn {
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px; /* border radius */
+	border: 2px solid #ffffff;
+}
+
+#header nav ul li a.btn:hover {
+	background: #ffffff;
+	color: #009be8;
+}
+
+#header .headertext {
+	margin-top: 10em;
+}
+
+#header h1 {
+	color: #ffffff;
+	font-weight: 300;
+	font-size: 4.5em;
+	line-height: 1;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+	margin-bottom: 0.3em;
+}
+
+#header p {
+	color: #d5d5d5;
+	font-size: 1.33em;
+	line-height: 1.5;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+	margin-bottom: 1.2em;
+}
+
+#header p strong {
+	color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
