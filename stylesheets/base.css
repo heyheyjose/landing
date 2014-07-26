@@ -290,6 +290,8 @@
 
 #header .headertext {
 	margin-top: 10em;
+	animation-delay: 0.7s;
+	-webkit-animation-delay: 0.7s; /* safari and chrome */
 }
 
 #header h1 {
