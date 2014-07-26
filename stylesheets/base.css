@@ -329,6 +329,211 @@
 	font-size: 1.2em;
 }
 
+/* pricing */
+#pricing {
+	background: #009be8;
+	padding: 4em 0;
+	text-align: center;
+}
+
+#pricing h2 {
+	color: #ffffff;
+	font-weight: 300;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
+#pricing p {
+	color: #ffffff;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+	font-size: 1.2em;
+}
+
+.pricebox {
+	background-color: #ffffff;
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+	box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+	margin-top: 3em;
+	height: 400px;
+	position: relative;
+}
+
+.pricebox.deal {
+	margin-top: 2em;
+	height: 430px;
+}
+
+.pricebox header {
+	background-color: #f1f1f1;
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+	box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+	padding: 1em 0;
+	margin-bottom: 2em;
+}
+
+.pricebox header h3 {
+	color: #4d4d4d;
+	font-size: 1.4em;
+	text-transform: uppercase;
+	margin: 0;
+	font-weight: 600;
+}
+
+.pricebox section button {
+	background: #2ecc71;
+	position: absolute;
+	bottom: 1em;
+	width: 90%;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.pricebox section button:hover {
+	background: #1fae5c;
+}
+
+.pricebox section h4 {
+	display: inline-block;
+	color: #009be8;
+	font-size: 6em;
+	font-weight: 900;
+	vertical-align: bottom;
+}
+
+.pricebox section h4 span {
+	font-size: 0.5em;
+	line-height: 1;
+	vertical-align: top;
+}
+
+#pricing .pricebox section p {
+	display: inline-block;
+	color: #9d9d9d;
+	text-shadow: none;
+	line-height: 1;
+	position: relative;
+	top: 1em;
+	font-size: 1.1em;
+}
+
+.pricebox section ul {
+	margin-top: 3em;
+}
+
+.pricebox section ul li {
+	font-size: 1.2em;
+	margin-bottom: 1.2em;
+}
+
+/* testimonials */
+#testimonials {
+	padding: 4em 0;
+	text-align: center;
+}
+
+#testimonials h2 {
+	color: #009be8;
+	font-weight: 300;
+}
+
+#testimonials p {
+	color: #9d9d9d;
+	font-size: 1.2em;
+}
+
+#testimonials blockquote {
+	border: none;
+	text-align: left;
+	padding: 0 1.5em 0 0;
+	font-size: 1em;
+	color: #4d4d4d;
+	line-height: 1.4;
+	margin-top: 1em;
+}
+
+#testimonials .avatar img {
+	border-radius: 50%;
+	float: left;
+	display: inline;
+	margin-right: 1em;
+	width: 65px;
+	height: 65px;
+}
+
+#testimonials .avatar p {
+	text-align: left;
+	padding-top: 1.5em;
+	color: #5d5d5d;
+	font-weight: 900;
+}
+
+/* call to action */
+#action {
+	background: url('../images/action.jpg');
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 180px;
+	width: 100%;
+	padding: 4em 0;
+	text-align: center;
+}
+
+#action h2 {
+	color: #ffffff;
+	font-weight: 300;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
+#action p {
+	color: #ffffff;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+	font-size: 1.2em;
+}
+
+#action .row {
+	margin-top: 3em;
+}
+
+/* footer */
+#footer {
+	background: #009be8;
+	padding: 1em 0;
+}
+
+#footer nav ul {
+	margin-top: 0.5em;
+}
+
+#footer nav ul li {
+	display: inline;
+	margin: 0;
+}
+
+#footer nav ul li a {
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin: 0 1em 0 0;
+	font-size: 1.1em;
+}
+
+#footer img {
+	float: right;
+}
+
+#footer p {
+	color: #ffffff;
+	line-height: 1;
+	text-transform: uppercase;
+	font-size: 0.7em;
+	margin-top: 0.5em;
+}
+
+
 
 
 
