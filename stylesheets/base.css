@@ -51,7 +51,7 @@
 /* #Basic Styles
 ================================================== */
 	body {
-		background: #ffffff; /* isn't it "best practices" to use 6 characters?? */
+		background: #ffffff;
 		font: 14px/21px "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		color: #444;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
@@ -246,7 +246,9 @@
 /* Sections
 ================================= */
 
-/* header */
+/*****************************************
+							HEADER
+*****************************************/
 #header {
 	background: url('../images/header.jpg');
 	background-position: top center;
@@ -315,7 +317,9 @@
 	color: #ffffff;
 }
 
-/* benefits */
+/*****************************************
+							BENEFITS
+*****************************************/
 #benefits {
 	padding: 4em 0 0;
 	text-align: center;
@@ -331,7 +335,9 @@
 	font-size: 1.2em;
 }
 
-/* pricing */
+/*****************************************
+							PRICING
+*****************************************/
 #pricing {
 	background: #009be8;
 	padding: 4em 0;
@@ -430,7 +436,9 @@
 	margin-bottom: 1.2em;
 }
 
-/* testimonials */
+/*****************************************
+							TESTIMONIALS
+*****************************************/
 #testimonials {
 	padding: 4em 0;
 	text-align: center;
@@ -472,7 +480,9 @@
 	font-weight: 900;
 }
 
-/* call to action */
+/*****************************************
+						CALL TO ACTION
+*****************************************/
 #action {
 	background: url('../images/action.jpg');
 	background-position: top center;
@@ -500,7 +510,9 @@
 	margin-top: 3em;
 }
 
-/* footer */
+/*****************************************
+							FOOTER
+*****************************************/
 #footer {
 	background: #009be8;
 	padding: 1em 0;

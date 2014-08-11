@@ -1,0 +1,1 @@
+A modern, responsive brochure-style landing page.
