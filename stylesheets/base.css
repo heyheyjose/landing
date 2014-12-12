@@ -91,6 +91,15 @@
 
 	hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
 
+	h1#top-left-logo {
+		font-family: 'Pacifico', cursive;
+	}
+
+	h3#bottom-right-logo {
+		font-family: 'Pacifico', cursive;
+		color: #ffffff;
+	}
+
 
 /* #Links
 ================================================== */
@@ -178,6 +187,12 @@
 	input::-moz-focus-inner {
     border: 0;
     padding: 0;
+	}
+
+	#submit-trial {
+		font-weight: 300;
+		padding-left: 15px;
+		padding-right: 15px;
 	}
 
 
